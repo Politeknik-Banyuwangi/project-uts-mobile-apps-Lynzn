@@ -50,7 +50,7 @@ class Chats extends StatelessWidget {
             size: 16,
             color: iconC,
           ),
-          SizedBox(width: 3),
+          SizedBox(width: 5),
           Text(
             desk,
             style: TextStyle(
