@@ -25,6 +25,7 @@ class Chats extends StatelessWidget {
             chatCard("Raiden Shogun", "Hello, I'm new on WhatsApp", "18:39", Icons.done, Colors.grey, NetworkImage('https://berita.yodu.id/wp-content/uploads/2022/01/Header.webp')),
             chatCard("Klee", "Boom Boom Bakudan!!", "18:12", Icons.done, Colors.grey, NetworkImage('https://statics.indozone.news/content/2021/12/06/n0sZWL0/tampil-sakit-melawan-musuh-inilah-daftar-3-artifacts-yang-harus-kamu-miliki16_700.jpg')),
             chatCard("Xiao", "PLEASE MARRY ME XIAO-SAMA", "18:19", Icons.done_all, Colors.blue, NetworkImage('https://gamebrott.com/wp-content/uploads/2022/04/featured.jpg')),
+            chatCard("Sangonomiya Kokomi", "Hello, I'm new on WhatsApp", "18:39", Icons.done, Colors.grey, NetworkImage('https://gamebrott.com/wp-content/uploads/2021/09/5-Hal-yang-Perlu-Kamu-Ketahui-Tentang-Sangonomiya-Kokomi-dari-Genshin-Impact-Sebelum-Rilis-4-1024x576.jpg')),
           ],
         ),
       ),
