@@ -45,7 +45,11 @@ class Chats extends StatelessWidget {
           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
         subtitle: Row(children: [
-          Icon(iconData),
+          Icon(
+            iconData,
+            size: 16,
+            color: Colors.green,
+          ),
           SizedBox(width: 3),
           Text(
             desk,
