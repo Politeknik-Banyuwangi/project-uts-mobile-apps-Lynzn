@@ -17,6 +17,7 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
+            chatCard("Gojo Satoru", "Aku butuh", "17:19"),
           ],
         ),
       ),
@@ -28,6 +29,29 @@ class Chats extends StatelessWidget {
           color: Colors.white,
         ),
       ),
+    );
+  }
+
+  Widget chatCard(String name, String desk, String time) {
+    return ListTile(
+      leading: CircleAvatar(
+        radius: 30,
+      ),
+      title: Text(
+        name,
+        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+      ),
+      subtitle: Row(children: [
+        Icon(Icons.done_all),
+        SizedBox(width: 3),
+        Text(
+          desk,
+          style: TextStyle(
+            fontSize: 13,
+          ),
+        ),
+      ]),
+      trailing: Text(time),
     );
   }
 }
