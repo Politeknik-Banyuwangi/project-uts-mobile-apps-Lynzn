@@ -18,8 +18,8 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33", NetworkImage("https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg")),
-            callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33", NetworkImage("https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg")),
+            callCard("Jokowi", Icons.call_missed, Colors.red, "July 18, 18:33", NetworkImage("https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg")),
+            callCard("Gojo Satoru", Icons.call_end, Colors.black, "July 18, 18:33", NetworkImage("https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg")),
             callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33", NetworkImage("https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg")),
             callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33", NetworkImage("https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg")),
           ],
