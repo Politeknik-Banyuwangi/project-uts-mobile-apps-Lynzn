@@ -17,8 +17,9 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            chatCard("Gojo Satoru", "I miss u", "17:19", Icons.done_all, Colors.blue, NetworkImage('https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg')),
-            chatCard("Kamisato Ayato", "Let's meet up at usual place", "08:49", Icons.done_all, Colors.grey, NetworkImage('https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2022/03/Ayato-Best-Build.jpg')),
+            chatCard("Gojo Satoru", "Your gift has been received, Thanks", "01:19", Icons.done_all, Colors.blue, NetworkImage('https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg')),
+            chatCard("Kamisato Ayato", "Let's meet up at usual place", "23:49", Icons.done_all, Colors.grey, NetworkImage('https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2022/03/Ayato-Best-Build.jpg')),
+            chatCard("Kaedehara Kazuha", "Hello...", "22:19", Icons.done, Colors.grey, NetworkImage('https://pbs.twimg.com/profile_images/1441938154080985088/q1ejAf4n_400x400.jpg')),
           ],
         ),
       ),
