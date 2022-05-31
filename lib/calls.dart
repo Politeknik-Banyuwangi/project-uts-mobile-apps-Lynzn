@@ -28,7 +28,7 @@ class Calls extends StatelessWidget {
             callCard("Kamisato Ayaka", Icons.call_missed, Colors.red, "Jan 18, 14:02", NetworkImage("https://foto.kontan.co.id/eQpBGeMMmMkhHSwU5oO1RAn-Gjw=/smart/2021/07/15/2100661850p.jpg")),
             callCard("Kirigaya Kazuto", Icons.call_made, Colors.green, "Jan 12, 18:33", NetworkImage("https://animeanalyst.files.wordpress.com/2016/07/kirito.png")),
             callCard("Gojo Satoru", Icons.call_made, Colors.green, "July 02, 18:33", NetworkImage("https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg")),
-            callCard("+62 818-7495-0112", Icons.call_received, Colors.green, "Mei 31, 07:15", NetworkImage("https://divedigital.id/wp-content/uploads/2021/10/1-min.png")),
+            callCard("+62 818-7495-0112", Icons.call_received, Colors.green, "Mei 31, 07:15", NetworkImage("https://gamefinity.id/wp-content/uploads/2021/07/layla-mobile-legends.jpg")),
             callCard("Kirigaya Kazuto", Icons.call_made, Colors.green, "August 12, 18:33", NetworkImage("https://animeanalyst.files.wordpress.com/2016/07/kirito.png")),
           ],
         ),

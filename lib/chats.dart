@@ -32,7 +32,7 @@ class Chats extends StatelessWidget {
             chatCard("Dilucard", "Your gift has been received", "03:19", Icons.done_all, Colors.blue, NetworkImage('https://br.atsit.in/id/wp-content/uploads/2022/02/kebocoran-genshin-impact-mengungkapkan-skin-diluc-dan-fischl-baru.jpg')),
             chatCard("Barats", "I met ur mom lol xD", "01:39", Icons.done_all, Colors.grey, NetworkImage('https://dailyspin.id/wp-content/uploads/2020/10/barats-build-tersakit.jpg')),
             chatCard("Keqing", "Let's meet up at usual place", "23:49", Icons.done_all, Colors.grey, NetworkImage('https://gamezero.id/wp-content/uploads/2021/03/genshin-impact-keqing-1.jpg')),
-            chatCard("Layla", "Hello...", "22:19", Icons.done, Colors.grey, NetworkImage('https://gamefinity.id/wp-content/uploads/2021/07/layla-mobile-legends.jpg')),
+            chatCard("+62 818-7495-0112", "Hello?", "22:19", Icons.done, Colors.grey, NetworkImage('https://gamefinity.id/wp-content/uploads/2021/07/layla-mobile-legends.jpg')),
             chatCard("Ningguang", "Hiya ", "19:51", Icons.done_all, Colors.grey, NetworkImage('https://www.calaxed.com/wp-content/uploads/2021/04/Genshin-Impact_2020_03-05-20_Top.jpg')),
             chatCard("Barbara", "Hello, I'm new on WhatsApp", "18:39", Icons.done, Colors.grey, NetworkImage('https://img.esportsku.com/wp-content/uploads//2020/10/barbara-genshin-impact-uhdpaper.com-4K-3.2973-wp.thumbnail-1200x675.jpg')),
             chatCard("Shenhe", "Hey there Beauty", "18:12", Icons.done, Colors.grey, NetworkImage('https://gamedaim.com/wp-content/uploads/2022/01/Shenhe-Genshin-Impact-Build-1.jpg')),
