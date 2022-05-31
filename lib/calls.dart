@@ -21,7 +21,7 @@ class Calls extends StatelessWidget {
             callCard("Raiden Shogun", Icons.call_missed, Colors.red, "July 18, 14:02", NetworkImage("https://berita.yodu.id/wp-content/uploads/2022/01/Header.webp")),
             callCard("Gojo Satoru", Icons.call_made, Colors.green, "July 02, 18:33", NetworkImage("https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg")),
             callCard("Kamisato Ayato", Icons.call_received, Colors.green, "Mei 31, 07:15", NetworkImage("https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2022/03/Ayato-Best-Build.jpg")),
-            callCard("Kirigaya Kazuto", Icons.call_made, Colors.green, "July 18, 18:33", NetworkImage("https://animeanalyst.files.wordpress.com/2016/07/kirito.png")),
+            callCard("Kirigaya Kazuto", Icons.call_made, Colors.green, "August 12, 18:33", NetworkImage("https://animeanalyst.files.wordpress.com/2016/07/kirito.png")),
           ],
         ),
       ),
@@ -55,7 +55,7 @@ class Calls extends StatelessWidget {
 
   Widget callCard(String name, IconData iconData, Color iconColor, String Time, NetworkImage networkImage) {
     return Card(
-      margin: EdgeInsets.only(bottom: 0.5),
+      margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
         leading: CircleAvatar(
           backgroundImage: networkImage,
