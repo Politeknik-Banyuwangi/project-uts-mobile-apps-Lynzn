@@ -17,7 +17,7 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            chatCard("Gojo Satoru", "Aku butuh", "17:19", Icons.done_all, NetworkImage('https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg')),
+            chatCard("Gojo Satoru", "Aku butuh", "17:19", Icons.done_all, Colors.blue, NetworkImage('https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg')),
           ],
         ),
       ),
@@ -32,7 +32,7 @@ class Chats extends StatelessWidget {
     );
   }
 
-  Widget chatCard(String name, String desk, String time, IconData iconData, NetworkImage ntimg) {
+  Widget chatCard(String name, String desk, String time, IconData iconD, Color iconC, NetworkImage ntimg) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
@@ -46,9 +46,9 @@ class Chats extends StatelessWidget {
         ),
         subtitle: Row(children: [
           Icon(
-            iconData,
+            iconD,
             size: 16,
-            color: Colors.green,
+            color: iconC,
           ),
           SizedBox(width: 3),
           Text(
