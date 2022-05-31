@@ -18,8 +18,9 @@ class Chats extends StatelessWidget {
               height: 10,
             ),
             //Memanggil objek chatCard
-            chatCard("Gojo Satoru", "Your gift has been received", "01:19", Icons.done_all, Colors.blue, NetworkImage('https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg')),
-            chatCard("Gorou", "I met ur mom lol xD", "18:39", Icons.done_all, Colors.grey, NetworkImage('https://staticg.sportskeeda.com/editor/2021/12/757fa-16385797744711-1920.jpg')),
+            chatCard("Gibah Goroh", "Anda: Lol xD", "06:17", Icons.done_all, Colors.blue, NetworkImage('https://www.kindpng.com/picc/m/236-2360166_group-s-contacts-people-chat-message-talk-im.png')),
+            chatCard("Gojo Satoru", "Your gift has been received", "03:19", Icons.done_all, Colors.blue, NetworkImage('https://www.greenscene.co.id/wp-content/uploads/2021/09/Jujutsu-Kaisen-4.jpg')),
+            chatCard("Gorou", "I met ur mom lol xD", "01:39", Icons.done_all, Colors.grey, NetworkImage('https://staticg.sportskeeda.com/editor/2021/12/757fa-16385797744711-1920.jpg')),
             chatCard("Kamisato Ayato", "Let's meet up at usual place", "23:49", Icons.done_all, Colors.grey, NetworkImage('https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2022/03/Ayato-Best-Build.jpg')),
             chatCard("Kaedehara Kazuha", "Hello...", "22:19", Icons.done, Colors.grey, NetworkImage('https://pbs.twimg.com/profile_images/1441938154080985088/q1ejAf4n_400x400.jpg')),
             chatCard("Kamisato Ayaka", "Hiya ", "19:51", Icons.done_all, Colors.grey, NetworkImage('https://foto.kontan.co.id/eQpBGeMMmMkhHSwU5oO1RAn-Gjw=/smart/2021/07/15/2100661850p.jpg')),
