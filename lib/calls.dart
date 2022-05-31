@@ -19,13 +19,9 @@ class Calls extends StatelessWidget {
               height: 10,
             ),
             callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33"),
-            // Masukkan Coding disini jangan rubah lainnya
-            //
-            //
-            //
-            //
-            //
-            //
+            callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33"),
+            callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33"),
+            callCard("Dev Stack", Icons.call_end, Colors.black, "July 18, 18:33"),
           ],
         ),
       ),
